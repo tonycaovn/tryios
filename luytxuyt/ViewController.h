@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property (weak, nonatomic) UIButton *firstButton;
+- (void)buttonPressed:(UIButton *)sender;
 @end
 

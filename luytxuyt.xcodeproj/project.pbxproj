@@ -14,6 +14,9 @@
 		843360DB1AEE8EAA0009C964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843360DA1AEE8EAA0009C964 /* Images.xcassets */; };
 		843360DE1AEE8EAA0009C964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843360DC1AEE8EAA0009C964 /* LaunchScreen.xib */; };
 		843360EA1AEE8EAB0009C964 /* luytxuytTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843360E91AEE8EAB0009C964 /* luytxuytTests.m */; };
+		845561741AF3C89700B333CC /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845561731AF3C89700B333CC /* FeedViewController.m */; };
+		845561771AF3E04800B333CC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845561761AF3E04800B333CC /* ProfileViewController.m */; };
+		845561791AF3ED8C00B333CC /* abc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845561781AF3ED8C00B333CC /* abc.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		843360E31AEE8EAB0009C964 /* luytxuytTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luytxuytTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843360E81AEE8EAB0009C964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843360E91AEE8EAB0009C964 /* luytxuytTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = luytxuytTests.m; sourceTree = "<group>"; };
+		845561721AF3C89700B333CC /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		845561731AF3C89700B333CC /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		845561751AF3E04800B333CC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		845561761AF3E04800B333CC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		845561781AF3ED8C00B333CC /* abc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +91,17 @@
 			children = (
 				843360D11AEE8EAA0009C964 /* AppDelegate.h */,
 				843360D21AEE8EAA0009C964 /* AppDelegate.m */,
+				845561751AF3E04800B333CC /* ProfileViewController.h */,
+				845561761AF3E04800B333CC /* ProfileViewController.m */,
+				845561781AF3ED8C00B333CC /* abc.jpg */,
 				843360D41AEE8EAA0009C964 /* ViewController.h */,
 				843360D51AEE8EAA0009C964 /* ViewController.m */,
 				843360D71AEE8EAA0009C964 /* Main.storyboard */,
 				843360DA1AEE8EAA0009C964 /* Images.xcassets */,
 				843360DC1AEE8EAA0009C964 /* LaunchScreen.xib */,
 				843360CD1AEE8EAA0009C964 /* Supporting Files */,
+				845561721AF3C89700B333CC /* FeedViewController.h */,
+				845561731AF3C89700B333CC /* FeedViewController.m */,
 			);
 			path = luytxuyt;
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845561791AF3ED8C00B333CC /* abc.jpg in Resources */,
 				843360D91AEE8EAA0009C964 /* Main.storyboard in Resources */,
 				843360DE1AEE8EAA0009C964 /* LaunchScreen.xib in Resources */,
 				843360DB1AEE8EAA0009C964 /* Images.xcassets in Resources */,
@@ -221,7 +235,9 @@
 			files = (
 				843360D61AEE8EAA0009C964 /* ViewController.m in Sources */,
 				843360D31AEE8EAA0009C964 /* AppDelegate.m in Sources */,
+				845561741AF3C89700B333CC /* FeedViewController.m in Sources */,
 				843360D01AEE8EAA0009C964 /* main.m in Sources */,
+				845561771AF3E04800B333CC /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				843360EF1AEE8EAB0009C964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843360F01AEE8EAB0009C964 /* Build configuration list for PBXNativeTarget "luytxuytTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				843360F21AEE8EAB0009C964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

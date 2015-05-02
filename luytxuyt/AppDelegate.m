@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
@@ -16,7 +15,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    NSLog(@"Application Did Finish Launching");
+    /*
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:viewRect];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    */
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:viewRect];
+    
+    self.feedViewController = [[FeedViewController alloc] init];
+
+    self.profileViewController = [[ProfileViewController alloc] init];
+    
+    UIViewController *favoritesViewController = [[UIViewController alloc] init];
+    favoritesViewController.title = @"Red";
+    
+    self.feedViewController.view.backgroundColor = [UIColor blueColor];
+    favoritesViewController.view.backgroundColor = [UIColor redColor];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:@[self.feedViewController, favoritesViewController, self.profileViewController]];
+    self.window.rootViewController = tabBarController;
+    
     return YES;
 }
 

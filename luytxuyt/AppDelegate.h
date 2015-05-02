@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ViewController.h"
+#import "FeedViewCOntroller.h"
+#import "ProfileViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) FeedViewController *feedViewController;
+@property (strong, nonatomic) ProfileViewController *profileViewController;
 @end
 
