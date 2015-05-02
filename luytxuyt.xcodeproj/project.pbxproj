@@ -17,6 +17,8 @@
 		845561741AF3C89700B333CC /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845561731AF3C89700B333CC /* FeedViewController.m */; };
 		845561771AF3E04800B333CC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845561761AF3E04800B333CC /* ProfileViewController.m */; };
 		845561791AF3ED8C00B333CC /* abc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845561781AF3ED8C00B333CC /* abc.jpg */; };
+		8455617C1AF4CD3D00B333CC /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455617B1AF4CD3D00B333CC /* FavoritesViewController.m */; };
+		8455617E1AF4D12900B333CC /* try-ios-ss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8455617D1AF4D12900B333CC /* try-ios-ss.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		845561751AF3E04800B333CC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		845561761AF3E04800B333CC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		845561781AF3ED8C00B333CC /* abc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpg; sourceTree = "<group>"; };
+		8455617A1AF4CD3D00B333CC /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		8455617B1AF4CD3D00B333CC /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		8455617D1AF4D12900B333CC /* try-ios-ss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "try-ios-ss.jpg"; path = "../../../Desktop/try-ios-ss.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,9 @@
 				843360CD1AEE8EAA0009C964 /* Supporting Files */,
 				845561721AF3C89700B333CC /* FeedViewController.h */,
 				845561731AF3C89700B333CC /* FeedViewController.m */,
+				8455617A1AF4CD3D00B333CC /* FavoritesViewController.h */,
+				8455617B1AF4CD3D00B333CC /* FavoritesViewController.m */,
+				8455617D1AF4D12900B333CC /* try-ios-ss.jpg */,
 			);
 			path = luytxuyt;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845561791AF3ED8C00B333CC /* abc.jpg in Resources */,
+				8455617E1AF4D12900B333CC /* try-ios-ss.jpg in Resources */,
 				843360D91AEE8EAA0009C964 /* Main.storyboard in Resources */,
 				843360DE1AEE8EAA0009C964 /* LaunchScreen.xib in Resources */,
 				843360DB1AEE8EAA0009C964 /* Images.xcassets in Resources */,
@@ -235,6 +244,7 @@
 			files = (
 				843360D61AEE8EAA0009C964 /* ViewController.m in Sources */,
 				843360D31AEE8EAA0009C964 /* AppDelegate.m in Sources */,
+				8455617C1AF4CD3D00B333CC /* FavoritesViewController.m in Sources */,
 				845561741AF3C89700B333CC /* FeedViewController.m in Sources */,
 				843360D01AEE8EAA0009C964 /* main.m in Sources */,
 				845561771AF3E04800B333CC /* ProfileViewController.m in Sources */,
