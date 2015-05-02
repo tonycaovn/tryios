@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FeedTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,15 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
-    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
-    UINavigationController *profileNavController = [[UINavigationController alloc] initWithRootViewController:profileViewController];
-    
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:@[profileNavController]];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = tabBarController;
-    
+    FeedTableViewController *feedTableViewController = [[FeedTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *feedNavController = [[UINavigationController alloc] initWithRootViewController:feedTableViewController];
+    self.window.rootViewController = feedNavController;
     return YES;
 }
 
